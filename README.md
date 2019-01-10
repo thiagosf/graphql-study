@@ -1,10 +1,9 @@
 # GraphQL Study
 
-[Article/Tutorial](https://medium.com/programming-society-gazette/part-1-api-using-graphql-and-node-js-3423a6004b96)
+A GraphQL study
 
 ## Features
 
-- TypeScript
 - Docker
 - GraphQL
 - MongoDB
