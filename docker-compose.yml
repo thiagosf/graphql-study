@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build: .
+    ports:
+      - "8080:3000"
+    command: npm run dev
+    volumes:
+      - .:/home/app/
+      - /home/app/node_modules

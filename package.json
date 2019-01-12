@@ -4,9 +4,13 @@
   "description": "A GraphQL study",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pm2-dev start src/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "pm2": "latest"
+  }
 }
