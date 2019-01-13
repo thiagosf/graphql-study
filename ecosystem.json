@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "app",
+      "script": "./src/server.js",
+      "watch": true,
+      "ignore_watch": [
+        "data",
+        "logs",
+        "node_modules",
+        "test",
+        "tmp"
+      ]
+    }
+  ]
+}

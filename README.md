@@ -6,7 +6,7 @@ A GraphQL study
 
 - [ ] Docker
 - [ ] GraphQL
-- [ ] MySQL
+- [x] MySQL
 - [ ] Redis
 - [ ] Logging
 - [ ] JWT
@@ -25,44 +25,44 @@ Take attendance.
 
 ## Database definition
 
-- teachers
+- Teacher
   * id
   * name
   * email
   * password
 
-- parents
+- Parent
   * id
   * name
   * email
 
-- students
+- Student
   * id
   * name
 
-- parent_students
+- ParentStudent
   * id
-  * parent_id
-  * student_id
+  * parentId
+  * studentId
 
-- class
+- Class
   * id
-  * teacher_id
+  * teacherId
   * name
 
-- class_students
+- ClassStudent
   * id
-  * class_id
-  * student_id
-  * is_present
+  * classId
+  * studentId
+  * isPresent
   * date
 
-- notifications
+- Notification
   * id
-  * teacher_id
-  * parent_id
-  * class_id
-  * student_id
+  * teacherId
+  * parentId
+  * classId
+  * studentId
   * attempts
   * status
   * date
